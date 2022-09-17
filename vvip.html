@@ -42,13 +42,10 @@
     <main>
         <div class="container">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src="images/logo1.png" class="d-block img-fluid" alt="ghana flag" width="200" height="100"
-                        loading="lazy">
-                </a>
+                <img src="images/logo1.png" class="d-block img-fluid" alt="ghana flag" width="200" height="100">
 
                 <ul class="nav nav-pills">
-                    <li class="nav-item fw-bold "><a href="#" class="nav-link" aria-current="page">Home</a></li>
+                    <li class="nav-item fw-bold "><a href="/" class="nav-link" aria-current="page">Home</a></li>
                     <li class="nav-item fw-bold "><a href="transport.html" class="nav-link">Transport Services</a></li>
                 </ul>
             </header>
@@ -66,11 +63,13 @@
         <div>
             <div class="bd-example">
                 <div class="accordion" id="accordionExample">
+
+
                     <div class="accordion-item">
                         <h4 class="accordion-header" id="headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <strong>ACCRA</strong>
+                                <strong>ACCRA TO KUMASI</strong>
                             </button>
                         </h4>
                         <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
@@ -83,92 +82,68 @@
                                                 <tr>
                                                     <th scope="col">DAYS</th>
                                                     <th scope="col">AVAILABLE<br />BUSES</th>
-                                                    <th scope="col">FROM</th>
-                                                    <th scope="col">TO</th>
-                                                    <th scope="col">DEPATURE<br />TIME</th>
-                                                    <th scope="col">ARRIVAL<br />TIME</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr class="table-light">
                                                     <th scope="row">SUNDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
 
                                                 <tr class="table-light">
                                                     <th scope="row">MONDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">TUESDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">WEDNESSDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">THURSDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">FRIDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">SATURDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button" onclick="window.location.href='transport.html'"
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
                                         class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="accordion-item">
                         <h4 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <strong>KUMASI</strong>
+                                <strong>ACCRA TO KOFORIDUA</strong>
                             </button>
                         </h4>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="">
@@ -178,92 +153,68 @@
                                                 <tr>
                                                     <th scope="col">DAYS</th>
                                                     <th scope="col">AVAILABLE<br />BUSES</th>
-                                                    <th scope="col">FROM</th>
-                                                    <th scope="col">TO</th>
-                                                    <th scope="col">DEPATURE<br />TIME</th>
-                                                    <th scope="col">ARRIVAL<br />TIME</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr class="table-light">
                                                     <th scope="row">SUNDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
 
                                                 <tr class="table-light">
                                                     <th scope="row">MONDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">TUESDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">WEDNESSDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">THURSDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">FRIDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">SATURDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button" onclick="window.location.href='transport.html'"
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
                                         class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="accordion-item">
                         <h4 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <strong>TAMALE</strong>
+                                <strong>ACCRA TO BOLGATANGA</strong>
                             </button>
                         </h4>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="">
@@ -273,87 +224,596 @@
                                                 <tr>
                                                     <th scope="col">DAYS</th>
                                                     <th scope="col">AVAILABLE<br />BUSES</th>
-                                                    <th scope="col">FROM</th>
-                                                    <th scope="col">TO</th>
-                                                    <th scope="col">DEPATURE<br />TIME</th>
-                                                    <th scope="col">ARRIVAL<br />TIME</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr class="table-light">
                                                     <th scope="row">SUNDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
                                                 </tr>
 
                                                 <tr class="table-light">
                                                     <th scope="row">MONDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">TUESDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
+
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">WEDNESSDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">THURSDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">FRIDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
                                                 </tr>
                                                 <tr class="table-light">
                                                     <th scope="row">SATURDAY</th>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-                                                    <td>Cell</td>
-
+                                                    <td>2</td>
+                                                    <td>4:30 AM, 4:00 PM</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <button type="button" onclick="window.location.href='transport.html'"
-                                    class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <strong>ACCRA TO AFLAO</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <strong>ACCRA TO TAKORADI</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <strong>KUMASI TO ACCRA</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <strong>KUMASI TO TAKORADI</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseSeven" class="accordion-collapse collapse " aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <strong>KUMASI TO BOLGATANGA</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseEight" class="accordion-collapse collapse " aria-labelledby="headingEight"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                <strong>KUMASI TO KOFORIDUA</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                <strong>KUMASI TO SUNYANI</strong>
+                            </button>
+                        </h4>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="">
+                                    <div class="bd-example">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">DAYS</th>
+                                                    <th scope="col">AVAILABLE<br />BUSES</th>
+                                                    <th scope="col">DEPATURE<br />TIMES</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="table-light">
+                                                    <th scope="row">SUNDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+
+                                                <tr class="table-light">
+                                                    <th scope="row">MONDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">TUESDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">WEDNESSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">THURSDAY</th>
+                                                    <td>2</td>
+                                                    <td>6:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">FRIDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                                <tr class="table-light">
+                                                    <th scope="row">SATURDAY</th>
+                                                    <td>3</td>
+                                                    <td>4:30 AM, 8:00 AM, 12:00 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLive"
+                                        class="btn btn-primary btn-lg px-4 me-md-4">BOOK A TICKET</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
+            </div>
+        </div>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <div class="modal fade" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLiveLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLiveLabel">GH BUS LINK BOOKING OPTIONS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>CONTACT VVIP TRANSPORT TO BOOK YOUR TICKET</p>
+                    <h5><strong>0244904983</strong></h5>
+                    <h5><strong>0557925263</strong></h5>
+                    <h5><strong>0540644677</strong></h5>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.vipjeountransport.com/login" class="btn btn-primary btn-sm px-2 me-md-2">Book
+                        From Website</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
